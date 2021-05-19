@@ -41,8 +41,10 @@ namespace WebApplication.Controllers
         [EnableCors("_myAllowSpecificOrigins")]
         [HttpGet]
         public async Task<IActionResult> GetFinalScoreRank()
+
         {
-            var dateTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day - 1);
+            var createTime = _dbContext.AbuQuantModel.OrderByDescending(_ => _.CreateTime).FirstOrDefault().CreateTime;
+            var dateTime = new DateTime(createTime.Year, createTime.Month, createTime.Day);
             var response = _dbContext.AbuQuantModel.Join(_dbContext.StockEntity, a => a.Code, s => s.Code, (_, __) => new
             {
                 Code = _.Code,

@@ -16,7 +16,7 @@ namespace Stock.EntityFrameWork
         {
         }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-          => options.UseMySql("Server=81.71.97.72;Port=3306;Database=yhsapi_yunmeibei;Uid=yhsapi_yunmeibei;Pwd=srZX6b5Lijae65sC;",
+          => options.UseMySql("Server=81.71.143.71;Port=3306;Database=stockdb;Uid=StockDB;Pwd=StockDB@pwd;",
                ServerVersion.FromString("5.7.32-mysql"),
                mySqlOptions => mySqlOptions.CharSetBehavior(CharSetBehavior.NeverAppend))
                    .EnableSensitiveDataLogging()
@@ -40,5 +40,6 @@ namespace Stock.EntityFrameWork
         public virtual DbSet<CustomCategory> CustomCategory { get; set; }
         public virtual DbSet<OptionalPool> OptionalPool { get; set; }
         public virtual DbSet<AbuQuantModel> AbuQuantModel { get; set; }
+        public virtual DbSet<ApplicationUser> ApplicationUser { get; set; }
     }
 }

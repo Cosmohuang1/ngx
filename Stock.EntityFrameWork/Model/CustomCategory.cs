@@ -13,7 +13,7 @@ namespace Stock.EntityFrameWork.Model
         public int Id { get; set; }
 
         [Required]
-        public int  UserId { get; set; }
+        public string  UserId { get; set; }
 
         [MaxLength(16), Required]
         public string Name { get; set; }
