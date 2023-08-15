@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\StockAnalysis\\StockAnalysis\\WebApplication\\WebApplication.csproj": {}
+    "/Users/cosmo/Y/websites/StockAnalysis/WebApplication/WebApplication.csproj": {}
   },
   "projects": {
-    "D:\\Work\\StockAnalysis\\StockAnalysis\\Stock.EntityFrameWork\\Stock.EntityFrameWork.csproj": {
+    "/Users/cosmo/Y/websites/StockAnalysis/Stock.EntityFrameWork/Stock.EntityFrameWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\StockAnalysis\\StockAnalysis\\Stock.EntityFrameWork\\Stock.EntityFrameWork.csproj",
+        "projectUniqueName": "/Users/cosmo/Y/websites/StockAnalysis/Stock.EntityFrameWork/Stock.EntityFrameWork.csproj",
         "projectName": "Stock.EntityFrameWork",
-        "projectPath": "D:\\Work\\StockAnalysis\\StockAnalysis\\Stock.EntityFrameWork\\Stock.EntityFrameWork.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\StockAnalysis\\StockAnalysis\\Stock.EntityFrameWork\\obj\\",
+        "projectPath": "/Users/cosmo/Y/websites/StockAnalysis/Stock.EntityFrameWork/Stock.EntityFrameWork.csproj",
+        "packagesPath": "/Users/cosmo/.nuget/packages/",
+        "outputPath": "/Users/cosmo/Y/websites/StockAnalysis/Stock.EntityFrameWork/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/cosmo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LongYuanChen/POSPro/_packaging/POSProFeed/nuget/v3/index.json": {},
+          "https://www.myget.org/F/orchardcore-preview/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -79,45 +75,47 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Work\\StockAnalysis\\StockAnalysis\\WebApplication\\WebApplication.csproj": {
+    "/Users/cosmo/Y/websites/StockAnalysis/WebApplication/WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\StockAnalysis\\StockAnalysis\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "/Users/cosmo/Y/websites/StockAnalysis/WebApplication/WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "D:\\Work\\StockAnalysis\\StockAnalysis\\WebApplication\\WebApplication.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\StockAnalysis\\StockAnalysis\\WebApplication\\obj\\",
+        "projectPath": "/Users/cosmo/Y/websites/StockAnalysis/WebApplication/WebApplication.csproj",
+        "packagesPath": "/Users/cosmo/.nuget/packages/",
+        "outputPath": "/Users/cosmo/Y/websites/StockAnalysis/WebApplication/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/cosmo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/LongYuanChen/POSPro/_packaging/POSProFeed/nuget/v3/index.json": {},
+          "https://www.myget.org/F/orchardcore-preview/api/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\StockAnalysis\\StockAnalysis\\Stock.EntityFrameWork\\Stock.EntityFrameWork.csproj": {
-                "projectPath": "D:\\Work\\StockAnalysis\\StockAnalysis\\Stock.EntityFrameWork\\Stock.EntityFrameWork.csproj"
+              "/Users/cosmo/Y/websites/StockAnalysis/Stock.EntityFrameWork/Stock.EntityFrameWork.csproj": {
+                "projectPath": "/Users/cosmo/Y/websites/StockAnalysis/Stock.EntityFrameWork/Stock.EntityFrameWork.csproj"
               }
             }
           }
@@ -187,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

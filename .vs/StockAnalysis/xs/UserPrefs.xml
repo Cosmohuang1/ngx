@@ -1,0 +1,53 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{414994A4-1BB2-4644-8381-5DC206D7D3AD}|Default">
+  <MonoDevelop.Ide.ItemProperties.StockConsoleApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication/Serivices/EasyMoney/EasyMoneyAPIService.cs">
+    <Files>
+      <File FileName="WebApplication/appsettings.json" Line="10" Column="124" />
+      <File FileName="StockConsoleApp/Program.cs" />
+      <File FileName="Stock.EntityFrameWork/StockDBContext.cs" />
+      <File FileName="Stock.EntityFrameWork/Model/StockEntity.cs" />
+      <File FileName="WebApplication/Controllers/InitialDBController.cs" />
+      <File FileName="WebApplication/Controllers/AbuQuantController.cs" />
+      <File FileName="Stock.EntityFrameWork/Model/StockComment.cs" />
+      <File FileName="WebApplication/SourceModel/EasyMoneyModel.cs" />
+      <File FileName="WebApplication/Serivices/AbuQuant/AbuQuantService.cs" />
+      <File FileName="WebApplication/Serivices/EasyMoney/IEasyMoneyAPIService.cs" />
+      <File FileName="WebApplication/Serivices/EasyMoney/EasyMoneyAPIService.cs" Line="53" Column="346" />
+      <File FileName="WebApplication/Controllers/CustomCategoryController.cs" />
+      <File FileName="WebApplication/Controllers/OptionalPoolController.cs" />
+      <File FileName="WebApplication/Controllers/WeatherForecastController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StockAnalysis" expanded="True">
+            <Node name="Stock.EntityFrameWork" expanded="True" />
+            <Node name="StockConsoleApp" expanded="True">
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="WebApplication" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Serivices" expanded="True">
+                <Node name="AbuQuant" expanded="True" />
+                <Node name="EasyMoney" expanded="True">
+                  <Node name="EasyMoneyAPIService.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="SourceModel" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/cosmo/Y/websites/StockAnalysis/WebApplication/Controllers/AbuQuantController.cs" relfile="WebApplication/Controllers/AbuQuantController.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
